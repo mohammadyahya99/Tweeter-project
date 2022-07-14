@@ -41,14 +41,11 @@ body {
 }
 .comments {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 7fr;
   width: 50%;
   height: 30%;
 }
 .posts {
-  display: grid;
-
-  grid-template-columns: 1fr;
   border-style: solid;
   border-radius: 10px;
   margin-left: 90px;
@@ -58,7 +55,17 @@ body {
 }
 
 .delete {
+  margin-left: 20px;
   color: aliceblue;
   background-color: #e74c3c;
   width: 100px;
+  border-radius: 10px;
+}
+.title {
+  margin: 10px;
+  font-style: bold;
+  font-size: 4vw;
+}
+.material-icons {
+  margin-top: 10px;
 }
