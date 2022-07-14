@@ -1,0 +1,64 @@
+body {
+  background-color: #ecf0f1;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  width: 100vw;
+}
+#tweeterContainer {
+  margin-left: 90px;
+}
+
+#CreateNewPosts {
+  position: relative;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+
+#textAreaContainer {
+  width: 70%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#buttonContainer {
+  position: absolute;
+  top: 0px;
+  right: 5%;
+}
+#PostsButton {
+  width: 200px;
+  height: 50px;
+  background-color: #3498db;
+  border-radius: 10px;
+}
+#textArea {
+  width: 100%;
+  height: 40px;
+  border-radius: 15px;
+}
+.comments {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 50%;
+  height: 30%;
+}
+.posts {
+  display: grid;
+
+  grid-template-columns: 1fr;
+  border-style: solid;
+  border-radius: 10px;
+  margin-left: 90px;
+  margin-bottom: 40px;
+  width: 70%;
+  height: 90%;
+}
+
+.delete {
+  color: aliceblue;
+  background-color: #e74c3c;
+  width: 100px;
+}
